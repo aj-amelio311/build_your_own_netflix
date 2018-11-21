@@ -9,3 +9,7 @@ Desktop application that acts as a Netflix for movies stored on your hard drive
 * NodeJS
 * Electron
 * MYSQL
+
+## Try It
+
+<a href="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/movie_dashboard.zip" rel="nofollow">Click here to download</a>
