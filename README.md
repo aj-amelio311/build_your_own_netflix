@@ -2,10 +2,6 @@
 
 Application that acts as a Netflix for movies stored you hard drive
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 <img src="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/images/screenshot.png" />
 
 ### Prerequisites
