@@ -142,7 +142,7 @@ function countercheck(counter, inc, end) {
 window.tileComponent = (movie) => {
   let tile = "";
   const poster = movie.movie_poster.replace("%3A", ":")
-  const movieTitle = movie.movie_title.replace("%24", "$").replace("%26", "&").replace("%3A", ":").replace("%23", "");
+  const movieTitle = movie.movie_title.replace("%24", "$").replace("%26", "&").replace("%3A", ":").replace("%23", "").replace("%2C", ",");
   const rawTitle = movie.raw_title;
   tile += `<div class='movie-tile' id='${rawTitle}' title='${decodeURI(movieTitle)}' onclick='details(this.id)'>`;
   tile += `<img src='${movie.movie_poster.replace("%3A", ":")}'>`;
