@@ -8,7 +8,8 @@ Desktop application that acts as a Netflix for movies stored on your hard drive
 
 * NodeJS
 * Electron
-* MYSQL
+* MongoDB
+* Angular
 
 # Try It
 
