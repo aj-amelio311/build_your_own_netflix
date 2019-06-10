@@ -1,0 +1,49 @@
+.movie-tile {
+  display: inline-block;
+  margin: 5px;
+}
+
+.movie-tile:hover {
+  cursor: pointer;
+}
+
+.movie-tile:hover {
+  opacity: 0.8;
+}
+
+#movie-container {
+  width: 900px;
+  display: block;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#movieInfo {
+  position: fixed;
+  background-color: #71eeb8;
+  z-index: 1000;
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.poster {
+  float: right;
+}
+
+.modal-menu-item {
+  display: inline-block;
+}
+
+.page-title {
+  text-align: center;
+}

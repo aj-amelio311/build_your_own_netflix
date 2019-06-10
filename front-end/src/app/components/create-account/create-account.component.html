@@ -1,0 +1,20 @@
+<div class="col-md-12">
+  <h2>Create Account</h2>
+  <form (ngSubmit)="createMovies(form)" #form="ngForm">
+    <div class="form-group">
+      <input type="text" class="form-control" name="username" placeholder="Username" ngModel>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" name="password" placeholder="Password" ngModel>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" name="filepath" placeholder="Path to Movies" ngModel>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <span>
+    <h6 class="percent">{{percent}}</h6>
+  </span>
+
+</div>

@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+.movie-tile {
+  display: inline-block;
+  margin: 5px;
+}
+
+.movie-tile:hover {
+  cursor: pointer;
+}
+
+.movie-tile:hover {
+  opacity: 0.8;
+}
+
+#movie-container {
+  width: 900px;
+  display: block;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#movieInfo {
+  position: fixed;
+  background-color: #71eeb8;
+  z-index: 1000;
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.poster {
+  float: right;
+}
+
+.modal-menu-item {
+  display: inline-block;
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.modal-button:hover {
+  cursor: pointer;
+  color: #17c479;
+}
+
+
+.rt-logo {
+  width: 50px;
+  height: auto;
+}
+
+.modal-button {
+  color: #11925a;
+  text-align: center;
+}
+
+.rating {
+
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.overview {
+  margin-left: 35px;
+  width: 750px;
+}
+
+.title {
+  margin-left: 35px;
+}
+
+.closeButton {
+  float: right;
+}
+
+.x-row {
+  margin-bottom: 20px;
+}
+
+.dashboard-header {
+  margin-left: 30px;
+}
+
+
+.subtitle {
+  margin-left: 20px;
+}
