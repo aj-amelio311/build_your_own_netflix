@@ -1,0 +1,17 @@
+{
+  "name": "movie_app_newstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongojs": "^2.6.0",
+  }
+}
