@@ -68,7 +68,7 @@ export class CreateAccountComponent implements OnInit {
       if (fileExtensions.includes(extension) && !item.includes("._")) {
         const movieClean = encodeURI(item.replace(/\.[^/.]+$/, "").replace("&", "and").replace("'", ""));
         const movieRaw = encodeURI(item)
-        let searchPath = `https://api.themoviedb.org/3/search/movie?query=${movieClean}&api_key=b6ff109edfbb695e5769846611d26bb7`;
+        let searchPath = `https://api.themoviedb.org/3/search/movie?query=${movieClean}&api_key=xxx`;
         let search = {
           "searchPath": searchPath,
           "rawTitle": decodeURI(movieRaw.replace(/\.[^/.]+$/, "")),
