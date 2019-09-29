@@ -13,4 +13,4 @@ Desktop application that acts as a Netflix for movies stored on your hard drive
 
 # Try It
 
-<a href="https://aj-website-file-storage.s3.us-east-2.amazonaws.com/movie.zip" rel="nofollow">Click here to download</a>
+<a href="https://aj-website-file-storage.s3.us-east-2.amazonaws.com/FilmHub.zip" rel="nofollow">Click here to download</a>
