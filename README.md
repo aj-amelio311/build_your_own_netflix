@@ -9,7 +9,7 @@ Desktop application that acts as a Netflix for movies stored on your hard drive
 * NodeJS
 * Electron
 * MongoDB
-* Angular
+* React
 
 # Try It
 
