@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tile {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tile:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.center-column {
+  float: none;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+.modal {
+  width: 800px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #98d4bf;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.close {
+  float: right;
+  z-index: 5;
+  position: absolute;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.modal-details {
+  margin-top: 20px;
+}
+
+.rtLogo {
+  width: 80px;
+  height: auto;
+  display: block;
+}
+
+
+.rt-rating {
+  margin-left: 25px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.button-secondary {
+  width: 160px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #98d4bf;
+  text-align: center;
+  color: black !important;
+    border: none;
+}
+
+.btn {
+  color: black !important;
+  border: none;
+}
+
+.button-secondary:hover {
+  cursor: pointer;
+  background-color: #58a487;
+}
+
+.fa-icon {
+    color: #58a487;
+
+}
+
+.fa-icon:hover {
+  cursor: pointer;
+  color: #98d4bf;
+}
+
+.shuffle-button {
+  margin-top: 20px;
+}
+
+.home-button {
+  width: 280px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #98d4bf;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+}
+
+.home-button:hover {
+  background-color: #58a487;
+}
+
+.home-logo {
+  display: block;
+  width: 450px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+
+.home-logo-img {
+  width: 420px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.movieCount {
+  margin-top: 20px;
+}
+
+.emptyset {
+  margin-top: 40px;
+}
+
+  .loading-gif {
+    width: 40px;
+    height: 40px;
+  }
+
+@media screen and (max-width: 500px) {
+  .description {
+    display: none;
+  }
+  .modal-poster {
+    width: 150px;
+    height: auto;
+  }
+
+  body {
+    background-color: #61C5D9;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+  }
+
+}

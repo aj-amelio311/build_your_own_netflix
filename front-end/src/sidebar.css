@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (max-width: 800px) {
+  .filterSearch {
+    width: 340px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar ul li {
+    display: inline-block;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .sidebar {
+      position: fixed;
+      width: 240px;
+  /* Width of side bar. WARNING: If you change this, change .listItemA:width */
+      height: 100%;
+      padding-top: 10px;
+  /* Padding above the sidebar image. */
+      font-family: helvetica;
+    /*  background-color: indianred;*/
+      left: 0;
+  /* Font for the sidebar (Remove to keep the same font as the rest of the document) */
+  }
+
+  .sidebar a {
+      text-decoration: none;
+  /* Removes the underline from links. */
+      color: #e9e7e7;
+  /* Text color of the menu items */
+  }
+
+  .sidebar ul {
+      line-height: 40px;
+      overflow: hidden;
+      margin-left: 0;
+      padding-left: 0;
+  }
+
+  .sidebar ul li {
+      list-style-type: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+
+  }
+
+
+
+  .listItemA {
+      height: 60px;
+      width: 240px;
+      text-align: center;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+  background: rgb(135,224,253); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+      color: black;
+      padding-top: 10px;
+  }
+
+  .listItemA:hover {
+    cursor: pointer;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b2ebfe+0,90def6+40,4fd0fb+100 */
+  background: rgb(178,235,254); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(178,235,254,1) 0%, rgba(144,222,246,1) 40%, rgba(79,208,251,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(178,235,254,1) 0%,rgba(144,222,246,1) 40%,rgba(79,208,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(178,235,254,1) 0%,rgba(144,222,246,1) 40%,rgba(79,208,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2ebfe', endColorstr='#4fd0fb',GradientType=0 ); /* IE6-9 */
+  }
+
+  .filterSearch {
+    width: 240px;
+    height: 40px;
+  }
+
+  .loading-gif {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
